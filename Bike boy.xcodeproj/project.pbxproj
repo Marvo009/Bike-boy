@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A9F82991515AD2200FE4232 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9F82981515AD2200FE4232 /* UIKit.framework */; };
+		0A9F829B1515AD2200FE4232 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9F829A1515AD2200FE4232 /* Foundation.framework */; };
+		0A9F829D1515AD2200FE4232 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9F829C1515AD2200FE4232 /* CoreGraphics.framework */; };
+		0A9F829F1515AD2200FE4232 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9F829E1515AD2200FE4232 /* CoreData.framework */; };
+		0A9F82A51515AD2200FE4232 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F82A31515AD2200FE4232 /* InfoPlist.strings */; };
+		0A9F82A71515AD2200FE4232 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9F82A61515AD2200FE4232 /* main.m */; };
+		0A9F82AB1515AD2200FE4232 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9F82AA1515AD2200FE4232 /* AppDelegate.m */; };
+		0A9F82AE1515AD2200FE4232 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F82AC1515AD2200FE4232 /* MainStoryboard_iPhone.storyboard */; };
+		0A9F82B11515AD2200FE4232 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F82AF1515AD2200FE4232 /* MainStoryboard_iPad.storyboard */; };
+		0A9F82B41515AD2200FE4232 /* Bike_boy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A9F82B21515AD2200FE4232 /* Bike_boy.xcdatamodeld */; };
+		0A9F82B71515AD2200FE4232 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9F82B61515AD2200FE4232 /* MasterViewController.m */; };
+		0A9F82BA1515AD2200FE4232 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9F82B91515AD2200FE4232 /* DetailViewController.m */; };
+		0A9F82C21515AD2200FE4232 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9F82C11515AD2200FE4232 /* SenTestingKit.framework */; };
+		0A9F82C31515AD2200FE4232 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9F82981515AD2200FE4232 /* UIKit.framework */; };
+		0A9F82C41515AD2200FE4232 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9F829A1515AD2200FE4232 /* Foundation.framework */; };
+		0A9F82C51515AD2200FE4232 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9F829E1515AD2200FE4232 /* CoreData.framework */; };
+		0A9F82CD1515AD2200FE4232 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F82CB1515AD2200FE4232 /* InfoPlist.strings */; };
+		0A9F82D01515AD2200FE4232 /* Bike_boyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9F82CF1515AD2200FE4232 /* Bike_boyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A9F82C61515AD2200FE4232 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A9F828B1515AD2100FE4232 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A9F82931515AD2200FE4232;
+			remoteInfo = "Bike boy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A9F82941515AD2200FE4232 /* Bike boy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bike boy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9F82981515AD2200FE4232 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A9F829A1515AD2200FE4232 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A9F829C1515AD2200FE4232 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A9F829E1515AD2200FE4232 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0A9F82A21515AD2200FE4232 /* Bike boy-Info.plist */ = {isa = PBXFileReference; path = "Bike boy-Info.plist"; sourceTree = "<group>"; };
+		0A9F82A41515AD2200FE4232 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A9F82A61515AD2200FE4232 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A9F82A81515AD2200FE4232 /* Bike boy-Prefix.pch */ = {isa = PBXFileReference; path = "Bike boy-Prefix.pch"; sourceTree = "<group>"; };
+		0A9F82A91515AD2200FE4232 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A9F82AA1515AD2200FE4232 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A9F82AD1515AD2200FE4232 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		0A9F82B01515AD2200FE4232 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		0A9F82B31515AD2200FE4232 /* Bike_boy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bike_boy.xcdatamodel; sourceTree = "<group>"; };
+		0A9F82B51515AD2200FE4232 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		0A9F82B61515AD2200FE4232 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		0A9F82B81515AD2200FE4232 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		0A9F82B91515AD2200FE4232 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		0A9F82C01515AD2200FE4232 /* Bike boyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bike boyTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9F82C11515AD2200FE4232 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0A9F82CA1515AD2200FE4232 /* Bike boyTests-Info.plist */ = {isa = PBXFileReference; path = "Bike boyTests-Info.plist"; sourceTree = "<group>"; };
+		0A9F82CC1515AD2200FE4232 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A9F82CE1515AD2200FE4232 /* Bike_boyTests.h */ = {isa = PBXFileReference; path = Bike_boyTests.h; sourceTree = "<group>"; };
+		0A9F82CF1515AD2200FE4232 /* Bike_boyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bike_boyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A9F82911515AD2200FE4232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9F82991515AD2200FE4232 /* UIKit.framework in Frameworks */,
+				0A9F829B1515AD2200FE4232 /* Foundation.framework in Frameworks */,
+				0A9F829D1515AD2200FE4232 /* CoreGraphics.framework in Frameworks */,
+				0A9F829F1515AD2200FE4232 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9F82BC1515AD2200FE4232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9F82C21515AD2200FE4232 /* SenTestingKit.framework in Frameworks */,
+				0A9F82C31515AD2200FE4232 /* UIKit.framework in Frameworks */,
+				0A9F82C41515AD2200FE4232 /* Foundation.framework in Frameworks */,
+				0A9F82C51515AD2200FE4232 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A9F82891515AD2100FE4232 = {
+			isa = PBXGroup;
+			children = (
+				0A9F82A01515AD2200FE4232 /* Bike boy */,
+				0A9F82C81515AD2200FE4232 /* Bike boyTests */,
+				0A9F82971515AD2200FE4232 /* Frameworks */,
+				0A9F82951515AD2200FE4232 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A9F82951515AD2200FE4232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A9F82941515AD2200FE4232 /* Bike boy.app */,
+				0A9F82C01515AD2200FE4232 /* Bike boyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A9F82971515AD2200FE4232 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A9F82981515AD2200FE4232 /* UIKit.framework */,
+				0A9F829A1515AD2200FE4232 /* Foundation.framework */,
+				0A9F829C1515AD2200FE4232 /* CoreGraphics.framework */,
+				0A9F829E1515AD2200FE4232 /* CoreData.framework */,
+				0A9F82C11515AD2200FE4232 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A9F82A01515AD2200FE4232 /* Bike boy */ = {
+			isa = PBXGroup;
+			children = (
+				0A9F82A91515AD2200FE4232 /* AppDelegate.h */,
+				0A9F82AA1515AD2200FE4232 /* AppDelegate.m */,
+				0A9F82AC1515AD2200FE4232 /* MainStoryboard_iPhone.storyboard */,
+				0A9F82AF1515AD2200FE4232 /* MainStoryboard_iPad.storyboard */,
+				0A9F82B51515AD2200FE4232 /* MasterViewController.h */,
+				0A9F82B61515AD2200FE4232 /* MasterViewController.m */,
+				0A9F82B81515AD2200FE4232 /* DetailViewController.h */,
+				0A9F82B91515AD2200FE4232 /* DetailViewController.m */,
+				0A9F82B21515AD2200FE4232 /* Bike_boy.xcdatamodeld */,
+				0A9F82A11515AD2200FE4232 /* Supporting Files */,
+			);
+			path = "Bike boy";
+			sourceTree = "<group>";
+		};
+		0A9F82A11515AD2200FE4232 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A9F82A21515AD2200FE4232 /* Bike boy-Info.plist */,
+				0A9F82A31515AD2200FE4232 /* InfoPlist.strings */,
+				0A9F82A61515AD2200FE4232 /* main.m */,
+				0A9F82A81515AD2200FE4232 /* Bike boy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A9F82C81515AD2200FE4232 /* Bike boyTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A9F82CE1515AD2200FE4232 /* Bike_boyTests.h */,
+				0A9F82CF1515AD2200FE4232 /* Bike_boyTests.m */,
+				0A9F82C91515AD2200FE4232 /* Supporting Files */,
+			);
+			path = "Bike boyTests";
+			sourceTree = "<group>";
+		};
+		0A9F82C91515AD2200FE4232 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A9F82CA1515AD2200FE4232 /* Bike boyTests-Info.plist */,
+				0A9F82CB1515AD2200FE4232 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A9F82931515AD2200FE4232 /* Bike boy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9F82D31515AD2200FE4232 /* Build configuration list for PBXNativeTarget "Bike boy" */;
+			buildPhases = (
+				0A9F82901515AD2200FE4232 /* Sources */,
+				0A9F82911515AD2200FE4232 /* Frameworks */,
+				0A9F82921515AD2200FE4232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bike boy";
+			productName = "Bike boy";
+			productReference = 0A9F82941515AD2200FE4232 /* Bike boy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A9F82BF1515AD2200FE4232 /* Bike boyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9F82D61515AD2200FE4232 /* Build configuration list for PBXNativeTarget "Bike boyTests" */;
+			buildPhases = (
+				0A9F82BB1515AD2200FE4232 /* Sources */,
+				0A9F82BC1515AD2200FE4232 /* Frameworks */,
+				0A9F82BD1515AD2200FE4232 /* Resources */,
+				0A9F82BE1515AD2200FE4232 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A9F82C71515AD2200FE4232 /* PBXTargetDependency */,
+			);
+			name = "Bike boyTests";
+			productName = "Bike boyTests";
+			productReference = 0A9F82C01515AD2200FE4232 /* Bike boyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A9F828B1515AD2100FE4232 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Marvin Andrews LLC";
+			};
+			buildConfigurationList = 0A9F828E1515AD2100FE4232 /* Build configuration list for PBXProject "Bike boy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A9F82891515AD2100FE4232;
+			productRefGroup = 0A9F82951515AD2200FE4232 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A9F82931515AD2200FE4232 /* Bike boy */,
+				0A9F82BF1515AD2200FE4232 /* Bike boyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A9F82921515AD2200FE4232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9F82A51515AD2200FE4232 /* InfoPlist.strings in Resources */,
+				0A9F82AE1515AD2200FE4232 /* MainStoryboard_iPhone.storyboard in Resources */,
+				0A9F82B11515AD2200FE4232 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9F82BD1515AD2200FE4232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9F82CD1515AD2200FE4232 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A9F82BE1515AD2200FE4232 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A9F82901515AD2200FE4232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9F82A71515AD2200FE4232 /* main.m in Sources */,
+				0A9F82AB1515AD2200FE4232 /* AppDelegate.m in Sources */,
+				0A9F82B41515AD2200FE4232 /* Bike_boy.xcdatamodeld in Sources */,
+				0A9F82B71515AD2200FE4232 /* MasterViewController.m in Sources */,
+				0A9F82BA1515AD2200FE4232 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9F82BB1515AD2200FE4232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9F82D01515AD2200FE4232 /* Bike_boyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A9F82C71515AD2200FE4232 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A9F82931515AD2200FE4232 /* Bike boy */;
+			targetProxy = 0A9F82C61515AD2200FE4232 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A9F82A31515AD2200FE4232 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A9F82A41515AD2200FE4232 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A9F82AC1515AD2200FE4232 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A9F82AD1515AD2200FE4232 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0A9F82AF1515AD2200FE4232 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A9F82B01515AD2200FE4232 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		0A9F82CB1515AD2200FE4232 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A9F82CC1515AD2200FE4232 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A9F82D11515AD2200FE4232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A9F82D21515AD2200FE4232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A9F82D41515AD2200FE4232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bike boy/Bike boy-Prefix.pch";
+				INFOPLIST_FILE = "Bike boy/Bike boy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A9F82D51515AD2200FE4232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bike boy/Bike boy-Prefix.pch";
+				INFOPLIST_FILE = "Bike boy/Bike boy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0A9F82D71515AD2200FE4232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bike boy.app/Bike boy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bike boy/Bike boy-Prefix.pch";
+				INFOPLIST_FILE = "Bike boyTests/Bike boyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0A9F82D81515AD2200FE4232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bike boy.app/Bike boy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bike boy/Bike boy-Prefix.pch";
+				INFOPLIST_FILE = "Bike boyTests/Bike boyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A9F828E1515AD2100FE4232 /* Build configuration list for PBXProject "Bike boy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9F82D11515AD2200FE4232 /* Debug */,
+				0A9F82D21515AD2200FE4232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9F82D31515AD2200FE4232 /* Build configuration list for PBXNativeTarget "Bike boy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9F82D41515AD2200FE4232 /* Debug */,
+				0A9F82D51515AD2200FE4232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A9F82D61515AD2200FE4232 /* Build configuration list for PBXNativeTarget "Bike boyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9F82D71515AD2200FE4232 /* Debug */,
+				0A9F82D81515AD2200FE4232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0A9F82B21515AD2200FE4232 /* Bike_boy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0A9F82B31515AD2200FE4232 /* Bike_boy.xcdatamodel */,
+			);
+			currentVersion = 0A9F82B31515AD2200FE4232 /* Bike_boy.xcdatamodel */;
+			path = Bike_boy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0A9F828B1515AD2100FE4232 /* Project object */;
+}
